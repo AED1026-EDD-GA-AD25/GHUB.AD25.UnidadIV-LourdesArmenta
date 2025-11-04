@@ -1,5 +1,9 @@
+./cola/Cola.java
+./cola/Nodo.java
 ./miTest/AppTest.java
 ./arbolBinario/Nodo.java
 ./arbolBinario/ArbolBinario.java
+./pila/Pila.java
+./pila/Nodo.java
 ./miPrincipal/Principal.java
 ./miPrincipal/AppRecorridoArboles.java

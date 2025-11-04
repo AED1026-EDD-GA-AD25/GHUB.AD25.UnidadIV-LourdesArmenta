@@ -29,6 +29,9 @@ public class AppRecorridoArboles {
         System.out.println("Recorrido recursivo Postorden:");
         ab.postorden();
         System.out.println();
+        System.out.println("Recorrido por Niveles:");
+        ab.recorridoPorNiveles();
+        System.out.println();
 
 
     }

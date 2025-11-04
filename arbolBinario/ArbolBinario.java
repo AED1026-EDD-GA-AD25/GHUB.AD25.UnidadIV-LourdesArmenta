@@ -67,6 +67,42 @@ public class ArbolBinario {
         }
 
     }
+    //Recorrido por niveles
+    public void recorridoPorNiveles(){
+        cola.Cola<Nodo> cola = new cola.Cola<>();
+        cola.encolar(raiz);
+        while (!cola.esVacia()){
+            Nodo aux = cola.frente();
+            visitar(aux);
+            if(aux.getIzquierdo()!=null){
+                cola.encolar(aux.getIzquierdo());
+            }
+            if(aux.getDerecho()!=null){
+                cola.encolar(aux.getDerecho());
+            }
+            cola.desencolar();
+        }
+
+
+    }
+    /*
+     * Recorrido preorden version iterativa
+     */
+    public void preordenIterativo(){
+
+    }
+    /*
+     * Recorrido inorden versión iterativa
+     */
+    public void inordenIterativo(){
+
+    }
+    /*
+     * Recorrito postorden versión iterativa
+     */
+    public void postordenIterativo(){
+        
+    }
 
     
 
