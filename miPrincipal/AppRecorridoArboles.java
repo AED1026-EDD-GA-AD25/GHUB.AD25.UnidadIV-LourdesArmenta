@@ -32,6 +32,16 @@ public class AppRecorridoArboles {
         System.out.println("Recorrido por Niveles:");
         ab.recorridoPorNiveles();
         System.out.println();
+        System.out.println("Recorrido Iterativo Preorden:");
+        ab.preordenIterativo();
+        System.out.println();
+        System.out.println("Recorrido Iterativo Inorden:");
+        ab.inordenIterativo();
+        System.out.println();
+        System.out.println("Recorrido Iterativo Postorden:");
+        ab.postordenIterativo();
+        System.out.println();
+
 
 
     }

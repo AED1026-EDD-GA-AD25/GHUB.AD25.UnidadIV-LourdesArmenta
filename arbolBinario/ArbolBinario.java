@@ -1,5 +1,7 @@
 package arbolBinario;
 
+import pila.Pila;
+
 public class ArbolBinario {
     //atributo
     private Nodo raiz;
@@ -89,22 +91,66 @@ public class ArbolBinario {
      * Recorrido preorden version iterativa
      */
     public void preordenIterativo(){
+        Pila<Nodo> pila = new Pila<Nodo>();
+        pila.apilar(raiz);
+        while (!pila.esVacia()){
+            Nodo aux = pila.cima();
+            visitar(aux);
+            pila.retirar();
+            if(aux.getDerecho()!=null){
+                pila.apilar(aux.getDerecho());
+            }
+            if(aux.getIzquierdo()!=null){
+                pila.apilar(aux.getIzquierdo());
+            }
+        }
 
     }
     /*
      * Recorrido inorden versión iterativa
      */
     public void inordenIterativo(){
+        Pila<Nodo> pila = new Pila<>();
+        pila.apilar(raiz);
+        Nodo aux = raiz.getIzquierdo();
+        while (aux != null || !pila.esVacia()){
+            if (aux != null){
+                pila.apilar(aux);
+                aux = aux.getIzquierdo();
+            }else{
+                aux = pila.cima();
+                pila.retirar();
+                visitar(aux);
+                aux = aux.getDerecho();
+            }
+        }
 
     }
     /*
      * Recorrito postorden versión iterativa
      */
     public void postordenIterativo(){
-        
+        Pila<Nodo> pila = new Pila<Nodo>();
+        Nodo aux = raiz;
+        Nodo q = raiz;
+        while (aux !=null){
+            //avanza por izquierda ya apila los nodos
+            while(aux.getIzquierdo() !=null){
+                pila.apilar(aux);
+                aux = aux.getIzquierdo();
+            }
+            //ahora voy por la derecha
+            while (aux !=null && (aux.getDerecho() == null || aux.getDerecho()==q)){
+                visitar(aux);
+                q = aux;
+                if (pila.esVacia()){
+                    return;
+                }
+                aux = pila.cima();
+                pila.retirar();
+            }
+            pila.apilar(aux);
+            aux = aux.getDerecho();
+        }   
     }
-
-    
-
-    
 }
