@@ -3,7 +3,12 @@
 ./miTest/AppTest.java
 ./arbolBinario/Nodo.java
 ./arbolBinario/ArbolBinario.java
+./arbolBinarioOrdenado/Persona.java
+./arbolBinarioOrdenado/Entero.java
+./arbolBinarioOrdenado/Comparable.java
 ./pila/Pila.java
 ./pila/Nodo.java
 ./miPrincipal/Principal.java
 ./miPrincipal/AppRecorridoArboles.java
+./miPrincipal/AppEnterosComparar.java
+./miPrincipal/AppPersonasComparar.java

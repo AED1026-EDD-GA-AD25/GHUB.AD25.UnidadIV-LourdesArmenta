@@ -18,9 +18,16 @@ public class Principal {
                 case 1:
                     AppRecorridoArboles.inicio();
                     break;
+                case 2:
+                    AppEnterosComparar.inicio();
+                    break;
+                case 3:
+                    AppPersonasComparar.inicio();
+                    break;
                 case 0:
                     System.out.println("Hasta luego!");
                     break;
+                
                 default:
                     System.out.println("Seleccion la opción correcta!");
 
@@ -38,10 +45,12 @@ public class Principal {
     }
     public static void menu(){
         
-        System.out.println("\n***************************");
+        System.out.println("\n****************************");
         System.out.println("      Arboles Binarios     ");
-        System.out.println("***************************");
-        System.out.println("1. Recorrido de árboles    ");
+        System.out.println("****************************");
+        System.out.println("1. Recorrido de árboles     ");
+        System.out.println("2. Comparar Enteros         ");
+        System.out.println("3. Comparar Persona por Nombre");
         System.out.println();
         System.out.println("0. Salir");
         System.out.print("Seleccione la opcion deseada:");
