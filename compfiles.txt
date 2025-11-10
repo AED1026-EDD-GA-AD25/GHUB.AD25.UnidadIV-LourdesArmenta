@@ -4,6 +4,8 @@
 ./arbolBinario/Nodo.java
 ./arbolBinario/ArbolBinario.java
 ./arbolBinarioOrdenado/Persona.java
+./arbolBinarioOrdenado/Util.java
+./arbolBinarioOrdenado/Alumno.java
 ./arbolBinarioOrdenado/Entero.java
 ./arbolBinarioOrdenado/Comparable.java
 ./pila/Pila.java
@@ -11,4 +13,5 @@
 ./miPrincipal/Principal.java
 ./miPrincipal/AppRecorridoArboles.java
 ./miPrincipal/AppEnterosComparar.java
+./miPrincipal/AppOrdenarAlumnos.java
 ./miPrincipal/AppPersonasComparar.java
