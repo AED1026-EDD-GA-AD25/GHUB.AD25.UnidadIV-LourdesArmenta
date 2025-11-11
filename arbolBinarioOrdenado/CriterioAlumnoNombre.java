@@ -4,8 +4,7 @@ public class CriterioAlumnoNombre extends Criterio<Alumno>{
 
     @Override
     public int comparar(Alumno a, Alumno b) {
-        // TODO Auto-generated method stub
-        return 0;
+        return a.getNombre().compareTo(b.getNombre());
     }
     
     
