@@ -9,6 +9,7 @@
 ./arbolBinarioOrdenado/Nodo.java
 ./arbolBinarioOrdenado/Alumno.java
 ./arbolBinarioOrdenado/Criterio.java
+./arbolBinarioOrdenado/BTreePrinter.java
 ./arbolBinarioOrdenado/ArbolBinarioOrdenado.java
 ./arbolBinarioOrdenado/OtroCriterioAlumnoId.java
 ./arbolBinarioOrdenado/Entero.java
@@ -19,6 +20,7 @@
 ./miPrincipal/AppOrdenarAlumnosIdComparator.java
 ./miPrincipal/AppOrdenarAlumnosNombre.java
 ./miPrincipal/Principal.java
+./miPrincipal/AppArbolBusquedaBinaria.java
 ./miPrincipal/AppRecorridoArboles.java
 ./miPrincipal/AppEnterosComparar.java
 ./miPrincipal/AppOrdenarAlumnosPromedio.java

@@ -36,6 +36,9 @@ public class Principal {
                 case 7:
                     AppOrdenarAlumnosIdComparator.inicio();
                     break;
+                case 8:
+                    AppArbolBusquedaBinaria.inicio();
+                    break;
 
                 case 0:
                     System.out.println("Hasta luego!");
@@ -58,9 +61,9 @@ public class Principal {
     }
     public static void menu(){
         
-        System.out.println("\n****************************");
-        System.out.println("      Arboles Binarios     ");
-        System.out.println("****************************");
+        System.out.println("\n***************************************+*************");
+        System.out.println("                  Arboles Binarios     ");
+        System.out.println("****************************++++++*+++***************");
         System.out.println("1. Recorrido de árboles     ");
         System.out.println("2. Comparar Enteros         ");
         System.out.println("3. Comparar Persona por Nombre");
@@ -68,6 +71,8 @@ public class Principal {
         System.out.println("5. Ordenar arreglo Alumnos por Nombre");
         System.out.println("6. Ordenar arreglo Alumnos por Promedio");
         System.out.println("7. Ordener arreglo Alumnos por Id utilizando Comparator");
+        System.out.println("8. Insertar,buscar,eliminar en un Arbol de Búsqueda Binaria");
+
 
         System.out.println();
         System.out.println("0. Salir");
