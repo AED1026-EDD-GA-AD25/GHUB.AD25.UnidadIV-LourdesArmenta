@@ -7,6 +7,9 @@ public class Nodo {
     private Nodo derecho;
     //constructores
     public Nodo() {
+        this.valor = null;
+        this.izquierdo = null;
+        this.derecho = null;
     }
     public Nodo(Comparable valor) {
         this.valor = valor;

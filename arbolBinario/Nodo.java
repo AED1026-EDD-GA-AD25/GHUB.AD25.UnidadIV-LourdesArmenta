@@ -2,7 +2,7 @@ package arbolBinario;
 
 public class Nodo {
     //atributos
-    private Object valor;
+    protected Object valor;
     private Nodo izquierdo;
     private Nodo derecho;
     //constructores
