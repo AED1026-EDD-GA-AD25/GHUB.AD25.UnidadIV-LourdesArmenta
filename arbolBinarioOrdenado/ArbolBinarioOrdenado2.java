@@ -1,6 +1,6 @@
 package arbolBinarioOrdenado;
 
-public class ArbolBinarioOrdenado2 {
+public class ArbolBinarioOrdenado2 extends arbolBinario.ArbolBinario{
     private Nodo raiz = null;
 
     public ArbolBinarioOrdenado2(){
@@ -47,6 +47,8 @@ public class ArbolBinarioOrdenado2 {
             /*
              * aux: auxiliar que va recorriendo los nodos
              */
+            return null;
+            
         }
 
 

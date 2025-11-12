@@ -4,7 +4,7 @@ import pila.Pila;
 
 public class ArbolBinario {
     //atributo
-    protected Nodo raiz;
+    private Nodo raiz;
     //constructor por defecto
 
     public ArbolBinario() {

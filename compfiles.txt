@@ -1,5 +1,11 @@
+./sort/OrdenCantCar.java
+./sort/TestSort.java
+./sort/OrdenDes.java
+./sort/OrdenAsc.java
 ./cola/Cola.java
 ./cola/Nodo.java
+./colecciones/TestVector.java
+./colecciones/UNombres.java
 ./miTest/AppTest.java
 ./arbolBinario/Nodo.java
 ./arbolBinario/ArbolBinario.java
@@ -8,6 +14,7 @@
 ./arbolBinarioOrdenado/Util.java
 ./arbolBinarioOrdenado/Nodo.java
 ./arbolBinarioOrdenado/Alumno.java
+./arbolBinarioOrdenado/ArbolBinarioOrdenado2.java
 ./arbolBinarioOrdenado/Criterio.java
 ./arbolBinarioOrdenado/BTreePrinter.java
 ./arbolBinarioOrdenado/ArbolBinarioOrdenado.java
