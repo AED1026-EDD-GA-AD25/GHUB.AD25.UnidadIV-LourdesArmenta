@@ -1,7 +1,5 @@
 package arbolBinarioOrdenado;
 
-
-
 public class ArbolBinarioOrdenado {
     //atributo
     protected Nodo raiz;

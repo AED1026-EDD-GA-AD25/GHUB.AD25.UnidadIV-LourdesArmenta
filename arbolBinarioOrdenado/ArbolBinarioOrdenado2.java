@@ -41,14 +41,21 @@ public class ArbolBinarioOrdenado2 extends arbolBinario.ArbolBinario{
     }
     public Nodo buscar(Object valor){
         Comparable dato = (Comparable)valor;
-        if(raiz == null){
-            return raiz;
-        }else{
-            /*
-             * aux: auxiliar que va recorriendo los nodos
-             */
+        if (raiz == null)
+           return raiz;
+        else{
+            //aux: auxiliar que va recorriendo los nodos, de la la raiz
+            Nodo aux = raiz;
+            while (aux !=null){
+                if (dato.esIgual(aux.getValor()))
+                   return aux;
+                if (dato.esMenor(aux.getValor()))
+                   aux = aux.getIzquierdo();
+                else 
+                   aux = aux.getDerecho();
+                   
+            }
             return null;
-            
         }
 
 
