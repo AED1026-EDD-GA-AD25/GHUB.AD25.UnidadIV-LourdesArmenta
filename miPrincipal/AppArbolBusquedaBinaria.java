@@ -6,11 +6,15 @@ public class AppArbolBusquedaBinaria{
         ArbolBinarioOrdenado arbol = new ArbolBinarioOrdenado();
         try{
             arbol.insertar(new Entero(10));
-            arbol.insertar(new Entero(15));
+            arbol.insertar(new Entero(4));
             arbol.insertar(new Entero(30));
-            arbol.insertar(new Entero(5));
             arbol.insertar(new Entero(2));
-            arbol.insertar(new Entero(1));
+            arbol.insertar(new Entero(5));
+            arbol.insertar(new Entero(25));
+            arbol.insertar(new Entero(40));
+            arbol.insertar(new Entero(23));
+            arbol.insertar(new Entero(28));
+            arbol.insertar(new Entero(26));
             
         }catch(Exception e){
             System.out.println(e.getMessage());
@@ -26,42 +30,19 @@ public class AppArbolBusquedaBinaria{
         //Imprimer el arbol
         System.out.println();
         arbolBinarioOrdenado.BTreePrinter.printNode(arbol.getRaiz());
-        //Búsqueda iterativa
-        arbolBinarioOrdenado.Nodo aux = arbol.buscar(new Entero(30));
-        if (aux==null){
-            System.out.println("\nDato no encontrado");
-        }else{
-            System.out.println("\nEncontrado el dato:"+aux.getValor());
-        }
-        //búsqueda recursiva
-        aux= arbol.buscar2(new Entero(15));
-        if (aux==null){
-            System.out.println("\nDato no encontrado");
-        }else{
-            System.out.println("\nEncontrado el dato:"+aux.getValor());
-        }
-        aux= arbol.buscar2(new Entero(150));
-        if (aux==null){
-            System.out.println("\nDato no encontrado");
-        }else{
-            System.out.println("\nEncontrado el dato:"+aux.getValor());
-        }
-        //Eliminacion
-        arbol.eliminar(new Entero(2));
-        //Imprimer el arbol
-        System.out.println();
+        System.out.println("Se encuentra el elemento 25: "+arbol.buscar(new Entero(25)).getValor());
+        System.out.println("Se encuentra el elemento 11: "+arbol.buscar(new Entero(11)));
+        arbol.eliminar(new Entero(26));
+        arbol.eliminar(new Entero(26));
+        
+        System.out.println("Arbol después de eliminar el 26:");
         arbolBinarioOrdenado.BTreePrinter.printNode(arbol.getRaiz());
-        //Elimino hoja
-        arbol.eliminar(new Entero(1));
-         //Imprimer el arbol
-        System.out.println();
-        arbolBinarioOrdenado.BTreePrinter.printNode(arbol.getRaiz());
-        //Elimina raiz
-        arbol.eliminar(new Entero(10));
-         //Imprimer el arbol
-        System.out.println();
+        arbol.eliminar(new Entero(30));
+        System.out.println("Arbol después de eliminar el 30:");
         arbolBinarioOrdenado.BTreePrinter.printNode(arbol.getRaiz());
 
+
+        
 
 
 

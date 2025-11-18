@@ -20,7 +20,7 @@ public class Entero implements Comparable{
 
     @Override
     public String toString() {
-        return " "+ dato + " ";
+        return dato + "";
     }
 
     @Override
@@ -53,6 +53,7 @@ public class Entero implements Comparable{
             return false;
         
     }
+    
     
     
 }

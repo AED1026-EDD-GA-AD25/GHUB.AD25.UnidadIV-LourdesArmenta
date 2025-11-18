@@ -177,13 +177,7 @@ public class ArbolBinarioOrdenado {
                anterior.setDerecho(nuevo);
         }
     }
-    /**
-     * insertar 2 es la interfaz de la operacion, llama al metodo
-     * insertarRecursivo que realiza la operacion y devuelve la raiz del nuevo 
-     * arbol. A este metodo interno se le pasa la raiz actual, a partir
-     * de la cual se describe el camino de busqueda, y al final se enlaza
-     * 
-     */
+    
     public void insertar2(Object valor) throws Exception{
         Comparable dato = (Comparable) valor;
         raiz = insertarRec(raiz,dato);
