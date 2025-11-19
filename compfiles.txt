@@ -29,6 +29,7 @@
 ./miPrincipal/Principal.java
 ./miPrincipal/AppArbolBusquedaBinaria.java
 ./miPrincipal/AppRecorridoArboles.java
+./miPrincipal/AppTreeSet.java
 ./miPrincipal/AppEnterosComparar.java
 ./miPrincipal/AppOrdenarAlumnosPromedio.java
 ./miPrincipal/AppOrdenarAlumnos.java
