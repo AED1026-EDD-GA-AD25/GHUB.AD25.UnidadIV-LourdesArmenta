@@ -9,6 +9,11 @@
 ./miTest/AppTest.java
 ./arbolBinario/Nodo.java
 ./arbolBinario/ArbolBinario.java
+./arbolAVL/Nodo.java
+./arbolAVL/Logical.java
+./arbolAVL/BTreePrinter.java
+./arbolAVL/Entero.java
+./arbolAVL/Comparable.java
 ./arbolBinarioOrdenado/Persona.java
 ./arbolBinarioOrdenado/CriterioAlumnoNombre.java
 ./arbolBinarioOrdenado/Util.java
