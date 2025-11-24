@@ -1,7 +1,6 @@
 package arbolAVL;
 import pila.Pila;
-import cola
-.Cola;
+import cola.Cola;
 /**
  * Representa un árbol binario ordenado. Tiene las operaciones
  * básicas: insertar, eliminar, buscar y recorridos

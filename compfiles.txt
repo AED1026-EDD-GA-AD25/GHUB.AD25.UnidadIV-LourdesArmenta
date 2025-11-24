@@ -12,6 +12,7 @@
 ./arbolAVL/Nodo.java
 ./arbolAVL/Logical.java
 ./arbolAVL/BTreePrinter.java
+./arbolAVL/ArbolAVL.java
 ./arbolAVL/Entero.java
 ./arbolAVL/Comparable.java
 ./arbolBinarioOrdenado/Persona.java
@@ -37,5 +38,6 @@
 ./miPrincipal/AppTreeSet.java
 ./miPrincipal/AppEnterosComparar.java
 ./miPrincipal/AppOrdenarAlumnosPromedio.java
+./miPrincipal/AppArbolAVL.java
 ./miPrincipal/AppOrdenarAlumnos.java
 ./miPrincipal/AppPersonasComparar.java

@@ -42,7 +42,9 @@ public class Principal {
                 case 9:
                     AppTreeSet.inicio();
                     break;
-
+                case 10:
+                    AppArbolAVL.inicio();
+                    break;
                 case 0:
                     System.out.println("Hasta luego!");
                     break;
@@ -76,6 +78,7 @@ public class Principal {
         System.out.println("7. Ordener arreglo Alumnos por Id utilizando Comparator");
         System.out.println("8. Insertar,buscar,eliminar en un Arbol de Búsqueda Binaria");
         System.out.println("9. Operacion con Clase TreeSet");
+        System.out.println("10. Operaciones con Arboles Binarios Balanceados");
 
 
         System.out.println();
