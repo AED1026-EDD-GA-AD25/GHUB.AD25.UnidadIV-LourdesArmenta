@@ -45,6 +45,9 @@ public class Principal {
                 case 10:
                     AppArbolAVL.inicio();
                     break;
+                case 11:
+                    AppOperacionesGrafo.inicio();
+                    break;
                 case 0:
                     System.out.println("Hasta luego!");
                     break;
@@ -79,8 +82,7 @@ public class Principal {
         System.out.println("8. Insertar,buscar,eliminar en un Arbol de Búsqueda Binaria");
         System.out.println("9. Operacion con Clase TreeSet");
         System.out.println("10. Operaciones con Arboles Binarios Balanceados");
-
-
+        System.out.println("11. Operaciones con Grafos");
         System.out.println();
         System.out.println("0. Salir");
         System.out.print("Seleccione la opcion deseada:");
