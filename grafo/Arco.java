@@ -6,7 +6,6 @@ public class Arco {
     private String destino;
     //perso del arco
     private int peso;
-
     //constructores
     public Arco(String destino) {
         this.destino = destino;
@@ -19,27 +18,18 @@ public class Arco {
     public String getDestino() {
         return destino;
     }
-
     public void setDestino(String destino) {
         this.destino = destino;
     }
-
     public int getPeso() {
         return peso;
     }
-
     public void setPeso(int peso) {
         this.peso = peso;
     }
     @Override
     public boolean equals(Object obj) {
         Arco a = (Arco) obj;
-        return this.destino == a.destino;
-        
+        return this.destino == a.destino;  
     } 
-    
-        
-    
-    
-    
 }
